@@ -1,0 +1,17 @@
+.footer
+    flex: 1
+    @include crossBrowser(display, flex)
+    background-color: $grey
+    max-height: 200px
+    .container
+        margin: 1rem
+        flex: 1
+        @include crossBrowser(display, flex)
+        @include crossBrowser(flex-direction, row)
+        @include crossBrowser(justify-content, center) 
+        @include crossBrowser(align-self, center)
+        @include crossBrowser(align-items, center) 
+        div
+            @include crossBrowser(align-self, center)
+             
+            

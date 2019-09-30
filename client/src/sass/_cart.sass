@@ -1,0 +1,116 @@
+.inner_cart
+    background-color: white
+    box-shadow: 5px 3px 5px rgba(0,0,0,0.3)
+    border: 1px solid $primary
+    padding: 1rem
+    position: absolute
+    top: 20px
+    right: 0
+    z-index: 9999
+    width: 100%
+    min-width: 250px
+    @include mobile-to-tablet
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        width: unset
+    .close_cart
+        background-color: white
+        color: black
+        border: none
+        width: 100%
+        font-size: 1rem
+        padding: 1rem
+        text-decoration: underline
+        border-top: 1px solid $grey
+        border-bottom: 1px solid $grey
+    .subtotale
+        @include crossBrowser(display, flex)
+        @include crossBrowser(flex-direction, row)
+        .subtotale_text
+            flex: 1
+            color: black
+            font-weight: bold
+            @include crossBrowser(align-self, flex-start)
+        .subtotale_price
+            color: black
+            font-weight: bold
+    .button 
+        background-color: black
+        color: white
+        border: none
+        font-size: 1rem
+        margin: 1rem auto
+        padding: 1rem
+        text-decoration: none
+        display: block
+        text-align: center
+    .button[disabled]
+        opacity: 0.3
+    .single-product
+        @include crossBrowser(display, flex)
+        @include crossBrowser(flex-direction, row)
+        border-top: 1px solid $grey
+        border-bottom: 1px solid $grey
+        padding: 1rem 0
+        margin-bottom: 1rem
+        position: relative
+        .delete_product
+            background-color: red
+            color: white
+            width: 10px
+            height: 10px
+            border-radius: 100%
+            position: absolute
+            right: 0
+            top: 1rem
+            text-align: center
+            padding: 3px
+            font-size: 0.7rem
+        .column-image
+            flex: 1
+            width: 100px 
+            img 
+                width: 100%
+        .column-detail
+            flex: 2
+            margin-left: 1rem
+            align-self: flex-start
+            h6 
+                color: black
+                font-weight: bold
+            p 
+                color: black
+                font-size: 0.6rem
+            .detail-product
+                @include crossBrowser(display, flex)
+                @include crossBrowser(flex-direction, row)
+                @include crossBrowser(justify-content, space-between)
+                color: black
+                font-size: 0.8rem
+                margin: 1rem auto
+                span 
+                    flex: 1
+                    @include crossBrowser(display, flex)
+                    @include crossBrowser(flex-direction, row)
+                    &:last-child
+                        align-self: flex-end
+                .moreless
+                    background-color: $grey
+                    padding: 2px
+                    border-radius: 100%
+                    width: 13px
+                    height: 13px
+                    text-align: center
+                    margin: 0 0.5rem
+            .row-price
+                @include crossBrowser(display, flex)
+                @include crossBrowser(flex-direction, row)
+                @include crossBrowser(justify-content, space-between)
+                color: black
+                font-size: 1rem
+                margin: 1rem auto   
+                a 
+                    text-decoration: underline
+

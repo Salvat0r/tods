@@ -1,0 +1,75 @@
+.inner_checkout
+    border: 1px solid $grey
+    padding: 2rem
+    .single-product
+        @include crossBrowser(display, flex)
+        @include crossBrowser(flex-direction, row)
+        border-bottom: 1px solid $grey
+        padding: 1rem 0
+        margin-bottom: 1rem
+        position: relative
+        .delete_product
+            background-color: red
+            color: white
+            width: 10px
+            height: 10px
+            border-radius: 100%
+            position: absolute
+            right: 0
+            top: 1rem
+            text-align: center
+            padding: 3px
+            font-size: 0.7rem
+        .column-image
+            width: 100px 
+            img 
+                width: 100%
+        .column-detail
+            flex: 2
+            margin-left: 1rem
+            @include crossBrowser(align-self, center)
+            h6 
+                color: black
+                font-weight: bold
+            p 
+                color: black
+                font-size: 0.6rem
+            .detail-product
+                @include crossBrowser(display, flex)
+                @include crossBrowser(flex-direction, row)
+                @include crossBrowser(justify-content, space-between)
+                color: black
+                font-size: 0.8rem
+                margin: 1rem auto
+                span 
+                    flex: 1
+                    @include crossBrowser(display, flex)
+                    @include crossBrowser(flex-direction, row)
+                    &:last-child
+                        @include crossBrowser(justify-content, flex-end)
+                .moreless
+                    background-color: $grey
+                    padding: 2px
+                    border-radius: 100%
+                    width: 13px
+                    height: 13px
+                    text-align: center
+                    margin: 0 0.5rem
+            .row-price
+                @include crossBrowser(display, flex)
+                @include crossBrowser(flex-direction, row)
+                @include crossBrowser(justify-content, flex-end)
+                color: black
+                font-size: 1rem
+                margin: 1rem auto
+    .subtotale
+        @include crossBrowser(display, flex)
+        @include crossBrowser(flex-direction, row)
+        .subtotale_text
+            flex: 1
+            color: black
+            font-weight: bold
+            @include crossBrowser(align-self, flex-start)
+        .subtotale_price
+            color: black
+            font-weight: bold

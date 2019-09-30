@@ -1,0 +1,33 @@
+.ProgressBar
+    flex: 1
+    justify-content: center
+    margin: 2rem
+    margin-left: 30%
+    margin-right: 30%
+    @include mobile-to-tablet
+        margin-left: 10%
+        margin-right: 10%
+    .Trank 
+        width: 100%
+        height: 10px
+        background-color: $grey
+        border-radius: 10px
+        box-shadow: inset 0 0 5px #666
+        position: relative
+        .NumberStep 
+            background-color: $grey
+            color: $primary
+            position: absolute
+            width: 18px
+            height: 18px 
+            border-radius: 25px
+            text-align: center
+            border: 2px solid white
+            padding: 3px
+            top: -10px
+            vertical-align: middle
+        .Thumb 
+            height: 100%
+            background-color: $primary
+            border-radius: 8px
+            transition: width 0.3s easy-in-out

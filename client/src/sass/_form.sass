@@ -1,0 +1,47 @@
+form 
+    padding: 1rem
+    max-width: 1200px
+    h3 
+        text-align: center
+        margin: 1rem auto
+    p 
+        text-align: center
+    .button 
+        background-color: black
+        color: white
+        border: none
+        font-size: 1rem
+        margin: 1rem auto
+        padding: 1rem
+        text-decoration: none
+        display: block
+        text-align: center
+        width: 100%
+        max-width: 340px
+    .button[disabled]
+        opacity: 0.3
+    .radio
+        @include crossBrowser(display, flex)
+        @include crossBrowser(flex-direction, row)
+        @include crossBrowser(justify-content, center)
+        label
+            margin: 1rem
+        input
+            margin: 1rem
+    .fields
+        @include crossBrowser(display, flex)
+        @include crossBrowser(flex-direction, column)
+        max-width: 380px
+        margin: 0 auto
+        .input
+            flex: 1
+            @include crossBrowser(display, flex)
+            @include crossBrowser(flex-direction, column)
+            label
+                font-size: 0.7rem
+                text-transform: uppercase
+            input[type=text]
+                padding: 0.4rem
+                font-size: 1rem
+                margin-bottom: 0.5rem
+

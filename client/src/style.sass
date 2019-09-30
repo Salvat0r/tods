@@ -1,0 +1,41 @@
+@import 'sass/colors'
+@import 'sass/media_queries'
+@import 'sass/mixin'
+
+@import 'sass/header'
+@import 'sass/footer'
+@import 'sass/main'
+
+@import 'sass/product'
+@import 'sass/ViewPDP'
+@import 'sass/cart'
+@import 'sass/checkout'
+
+@import 'sass/progressBar'
+@import 'sass/form'
+@import 'sass/thanks'
+
+*
+    margin: 0
+    padding: 0
+    font-family: 'Montserrat', sans-serif;
+
+body 
+    height: 100%
+    overflow-x: hidden
+
+.app
+    @include crossBrowser(display, flex)
+    @include crossBrowser(flex-direction, column)
+    @include crossBrowser(align-content, space-between)
+    min-height: 100vh
+
+h1 
+    text-align: center
+    padding: 1rem
+
+.products
+    @include crossBrowser(display, flex)
+    @include crossBrowser(flex-direction, row)
+    @include crossBrowser(flex-wrap, wrap)
+    @include crossBrowser(justify-content, space-between)

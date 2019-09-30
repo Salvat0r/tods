@@ -1,0 +1,15 @@
+export const PRODUCTS_LOADED = "PRODUCTS_LOADED";
+export const SELECT_PRODUCT = "SELECT_PRODUCT";
+export const CLEAR_PRODUCT = "CLEAR_PRODUCT";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const UPDATE_ITEM_UNITS = "UPDATE_ITEM_UNITS";
+export const DELETE_FROM_CART = "DELETE_FROM_CART";
+export const DISPLAY_CART = "DISPLAY_CART";
+export const SUB_TOTAL = "SUB_TOTAL";
+export const NEXT_STEP = "NEXT_STEP";
+export const COPY_ADDRESS = "COPY_ADDRESS";
+export const OK_PAYMENT = "OK_PAYMENT";
+export const SHIPPING_VALUES = "SHIPPING_VALUES";
+export const BILLING_VALUES = "BILLING_VALUES";
+export const CREDIT_CARD_VALUES = "CREDIT_CARD_VALUES";
+export const CLEAR_PAYMENT = "CLEAR_PAYMENT";

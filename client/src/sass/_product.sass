@@ -1,0 +1,29 @@
+.product
+    flex: 1
+    list-style: none
+    margin: 1rem
+    border-bottom: 1px solid $grey
+    .product-link
+        text-decoration: none
+        .img-container
+            position: relative
+            width: 100%
+            background-color: $grey
+            overflow: hidden
+            img 
+                width: 100%
+                height: auto
+        .product-text
+            @include crossBrowser(display, flex)
+            @include crossBrowser(flex-direction, row)
+            padding: 0.3rem 0
+            h2 
+                font-size: 0.8rem
+                flex: 1
+                color: black
+            .product-price
+                color: black
+                font-size: 0.8rem
+
+.notavailable
+    opacity: 0.5

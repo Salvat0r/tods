@@ -1,0 +1,67 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "sku": "NAW12393880RCPB999",
+            "qty": 1,
+            "availability": true,
+            "price": 698.00,
+            "image": [
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014806630341_02_02_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014806630341_04_04_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014806630341_05_05_753Wx979H.jpg"
+            ],
+            "thumbnail": "http://images.theluxer.com/Fay_medias/elaborati/fashion/456x647/014806630341_01_01_456Wx647H.jpg",
+            "name": "MANTELLA ROMANTIC",
+            "description": "Realizzata in panno con imbottitura in ovatta tecnica, la Mantella Romantic con manica a tre quarti ha una silhouette essenziale con tasche a filo. La chiusura con automatici nascosti è completata dall'iconico gancio Fay nella parte superiore del capo."
+        },
+        {
+            "id": 2,
+            "sku": "NAW12393880RCPC002",
+            "qty": 2,
+            "availability": true,
+            "price": 648.00,
+            "image": [
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014806640341_02_02_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014806640341_04_04_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014806640341_05_05_753Wx979H.jpg"
+            ],
+            "thumbnail": "http://images.theluxer.com/Fay_medias/elaborati/fashion/456x647/014806640341_01_01_456Wx647H.jpg",
+            "name": "MANTELLA ROMANTIC",
+            "description": "Realizzata in panno con imbottitura in ovatta tecnica, la Mantella Romantic con manica a tre quarti ha una silhouette essenziale con tasche a filo. La chiusura con automatici nascosti è completata dall'iconico gancio Fay nella parte superiore del capo."
+        },
+        {
+            "id": 3,
+            "sku": "NAW3339355URBNB999",
+            "qty": 0,
+            "availability": false,
+            "price": 1110.00,
+            "image": [
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014756650341_02_02_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014756650341_04_04_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014756650341_05_05_753Wx979H.jpg"
+            ],
+            "thumbnail": "http://images.theluxer.com/Fay_medias/elaborati/fashion/456x647/014756650341_01_01_456Wx647H.jpg",
+            "name": "PIUMINO PELLICCIA",
+            "description": "Piumino in nylon lucido idrorepellente effetto stropicciato, chiuso con cerniera nascosta e iconici ganci in metallo. Il collo avvolgente, il cappuccio removibile con inserto in pelliccia, i polsini antivento e le tasche a filo ne fanno un alleato di stile casual che non teme le sfide della stagione più fredda."
+        },
+        {
+            "id": 4,
+            "sku": "N8WM1396570RKCT01M",
+            "qty": 1,
+            "availability": true,
+            "price": 398.00,
+            "image": [
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014745610341_02_02_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014745610341_04_04_753Wx979H.jpg",
+                "http://images.theluxer.com/Fay_medias/elaborati/fashion/753x979/014745610341_05_05_753Wx979H.jpg"
+            ],
+            "thumbnail": "http://images.theluxer.com/Fay_medias/elaborati/fashion/456x647/014745610341_01_01_456Wx647H.jpg",
+            "name": "ABITO HEART",
+            "description": "Abito girocollo a manica lunga misto lana vergine e mohair, con profili a costine. Il cuore a contrasto con logo Fay e la vestibilità morbida conferiscono al capo un'allure romantica e chic."
+        }
+    ],
+    "payment": [
+        { "confirmation": true }
+    ]
+}
